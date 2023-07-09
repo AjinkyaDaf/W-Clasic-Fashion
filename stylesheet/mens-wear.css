@@ -293,6 +293,11 @@ h3{
   width: 20rem;
 }
 
+.product:hover{
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+ }
+
 .fa-star, .fa-star-half-o{
   color: #fabb02;
 }

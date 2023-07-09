@@ -327,7 +327,7 @@ img {
 .all-product {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 50px 50px;
   grid-template-columns: auto auto auto;
   background: rgb(255, 233, 242);
@@ -342,6 +342,7 @@ img {
   padding: 100px;
 
 }
+
 
 .product-box {
   height: 450px;
@@ -360,6 +361,11 @@ img {
   font-size: 30px;
   text-align: center;
 }
+
+.product-box:hover{
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+ }
 
 .photos-box-1 {
   border: 1px solid rgb(244, 111, 230);
@@ -406,6 +412,11 @@ img {
   /* border: 1px solid; */
   box-shadow: 1px 1px 10px 1px rgb(105, 105, 105);
 }
+
+.mains-photo-div:hover{
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+ }
 
 /* .photo-mans{
     align-items: center;
