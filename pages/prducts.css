@@ -63,7 +63,7 @@ text-transform: uppercase;
 }
 
 .upper-navbaar {
-background-image: url("./page-photo/nav-bg.jpg");
+background-image: url("/photos/nav-bg.jpg");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
@@ -196,6 +196,7 @@ background: linear-gradient(
 );
 border-radius: 4px;
 color: white;
+margin-right: 10px;
 }
 
 .lower-navbaar {
